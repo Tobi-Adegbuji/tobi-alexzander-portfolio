@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #101721;
+    width: 152px;
+    height: 100vh;
+    position: fixed;
+    border-right: 3px dashed;
+    border-right-width: 2px;
+    border-color: #444444;
+}
+
+.navbutton-container{
+    margin-top: 64px;
+    height: 427px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.social-media-container{
+
+    margin-top: 118px;
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+
+}
