@@ -6,7 +6,7 @@
     height: 100vh;
     padding: 25px;
     position: sticky;
-    border-right: 2px dashed #444444; 
+    /* border-right: 2px dashed #444444;  */
     position: -webkit-sticky;
 
 }
