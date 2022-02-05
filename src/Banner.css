@@ -15,8 +15,8 @@
   width: min-content;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   flex-grow: 1;
+  padding: 50px;
 }
 
 .banner-info > p {
@@ -26,7 +26,7 @@
 
 .banner-info-header-top {
   font-family: "Raleway Dots", cursive;
-  font-size: 26px;
+  font-size: 36px;
   letter-spacing: 8px;
   margin-top: 30px;
   margin-bottom: 0px;
@@ -39,7 +39,7 @@
   color: white;
   font-weight: 400;
   letter-spacing: 8px;
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 10px;
   margin-bottom: 0;
 }
@@ -109,8 +109,9 @@
   align-self: flex-end;
   /* display: inline-block; */
   object-fit: contain;
-  height: 80vh;
+  height: 75vh;
   min-height: 100%;
+  margin-right: 60px;
 }
 
 .banner-stats {
