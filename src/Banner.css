@@ -1,19 +1,22 @@
 .banner {
   background-color: #1f2732;
   flex-grow: 1;
-  width: fit-content;
+  width: 100%;
   height: fit-content;
   border-bottom-left-radius: 14px;
-  border-bottom-right-radius: 14px;
   padding-top: 20px;
   display: flex;
-  
+ 
 }
 
 .banner-info {
   margin-left: 20px;
   color: white;
   width: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 .banner-info > p {
@@ -25,7 +28,7 @@
   font-family: "Raleway Dots", cursive;
   font-size: 26px;
   letter-spacing: 8px;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 0px;
   color: #ababab;
 }
@@ -52,19 +55,62 @@
   width: 100%;
   font-size: 14px;
   font-weight: lighter;
+  
 }
 
+.banner-info-btn{
+    background-color: white;
+    opacity: 87%;
+    border-radius: 3px;
+    width: 170px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-info-btn > h3{
+    color: #17202E;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: small;
+    margin: 2px;
+}
+
+
+.banner-info-about{
+    margin-top: 90px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.banner-info-about > h2{
+    margin: 0;
+    font-weight: 500;
+}
+
+.banner-info-about > h1{
+    margin: 0;
+    color: #E3B100;
+}
+
+.banner-info-about > p{
+    font-size: 14px;
+    margin-top: 5px;
+    color: #ababab;
+}
+
+
 .banner-infographic {
-  flex-grow: 1;
+  flex-grow: 2;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .banner-infographic > img {
   align-self: flex-end;
-  display: inline-block;
+  /* display: inline-block; */
   object-fit: contain;
-  height: 80vh;
+  height: 60vh;
+  min-height: 100%;
 }
 
 .banner-stats {

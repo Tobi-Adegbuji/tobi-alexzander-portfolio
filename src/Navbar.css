@@ -1,12 +1,10 @@
 .navbar {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #101721;
     width: fit-content;
     height: 100vh;
-    padding: 5px;
+    padding: 25px;
     position: sticky;
     border-right: 2px dashed #444444; 
     position: -webkit-sticky;
@@ -14,7 +12,7 @@
 }
 
 .navbutton-container{
-    margin-top: 30px;
+    margin-top: 10px;
     height: 427px;
     display: flex;
     flex-direction: column;
@@ -29,4 +27,5 @@
     flex-direction: column;
     justify-content: space-between;
     width: fit-content;
+    
 }

@@ -24,12 +24,12 @@ function Navbar() {
       <NavButton icon={resumeIcon}/>
       <NavButton icon={contactIcon}/>
       </div>
-      <div className="social-media-container">
+      {/* <div className="social-media-container">
           <img src={linkedinIcon} alt="linkedin" />
           <img src={githubIcon} alt="linkedin" />
           <img src={instagramIcon} alt="linkedin" />
           <img src={pinterestIcon} alt="linkedin" />
-      </div>
+      </div> */}
   </nav>
   );
 }
