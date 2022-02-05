@@ -16,7 +16,8 @@
     align-self: flex-end;
     margin-left: auto;
     object-fit: contain;
-    height: 75%;
+    height: 100%;
+    margin-right: 10px;
 }
 
 .banner-info{
@@ -24,6 +25,20 @@
     font-family: Ralew;
 }
 
+.banner-info > p{
+    font-family: 'Raleway Dots', cursive;
+    color: white;
+    font-size: 40px;
+    margin:0;
+    margin-top: 50px;
+    letter-spacing: 8px;
+
+}
 .banner-info > h1{
-    
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 8px;
+    font-size: 40px;
+    margin-top: 10px;
 }

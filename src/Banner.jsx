@@ -6,7 +6,8 @@ function Banner() {
   return (
   <section className='banner'>
       <div className="banner-info">
-        <h1>HIRE ME</h1>
+        <p>CREATIVE</p>
+        <h1>TECHNOLOGIST</h1>
       </div>
       <div className="banner-infographic">     
         <img src={bannerImage} alt="" />

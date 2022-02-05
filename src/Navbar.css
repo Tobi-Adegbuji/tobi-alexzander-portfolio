@@ -7,9 +7,7 @@
     width: 9%;
     height: 100vh;
     position: sticky;
-    border-right: 3px dashed;
-    border-right-width: 2px;
-    border-color: #444444;
+    border-right: 2px dashed #444444;    
 }
 
 .navbutton-container{
