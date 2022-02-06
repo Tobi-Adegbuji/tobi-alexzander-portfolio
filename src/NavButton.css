@@ -1,10 +1,10 @@
 .navbutton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 36px;
   width: 36px;
-  box-shadow: -7px -7px 20px 0px #131518, -4px -4px 5px 0px #131518,
+  box-shadow: -7px -7px 20px 0px #0002, -4px -4px 5px 0px #131518,
     7px 7px 20px 0px #0002, 4px 4px 5px 0px #131518,
     inset 0px 0px 0px 0px #131518, inset 0px 0px 0px 0px #131518,
     inset 0px 0px 0px 0px #131518, inset 0px 0px 0px 0px #131518;
@@ -12,7 +12,7 @@
   border-radius: 10px;
 }
 
-.navbutton > img{
+.navbutton > img {
   object-fit: contain;
   height: 40px;
 }

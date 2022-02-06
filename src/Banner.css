@@ -109,7 +109,7 @@
   align-self: flex-end;
   /* display: inline-block; */
   object-fit: contain;
-  height: 75vh;
+  height: 100%;
   min-height: 100%;
   margin-right: 60px;
 }
