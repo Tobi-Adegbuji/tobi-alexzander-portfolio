@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: column;
     background-color: #101721;
-    width: fit-content;
+    width: max-conten;
     height: 100vh;
     padding: 25px;
-    position: sticky;
     /* border-right: 2px dashed #444444;  */
-    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0; 
 
 }
 

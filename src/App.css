@@ -1,11 +1,13 @@
-.App{
+.App {
   display: flex;
-
+  width: 85%;
 }
 
-.main-content{
+.main-content {
   padding: 0;
   flex-grow: 1;
-  margin-left: 64px;
+  margin-left: 4%;
+  width: 100%;
 }
+
 
