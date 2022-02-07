@@ -6,6 +6,8 @@ import movieStreamz from './img/movie-streamz.png';
 import springRecipes from './img/spring-recipes.png';
 import edgeExpress from './img/edge-express.png';
 import webDiaries from './img/web-diaries.png';
+import sportology from './img/sportology.png';
+import fedEx from './img/fed-ex.png'; 
 
 
 import './SliderSection.css'
@@ -59,28 +61,56 @@ function SliderSection() {
           <SwiperSlide >
           <SliderCard cardImage={webDiaries}/>
           </SwiperSlide>
+          <SwiperSlide >
+          <SliderCard cardImage={sportology}/>
+          </SwiperSlide>
         </Swiper>
         <Swiper
           className="swiper"
-          modules={[Navigation, Pagination, A11y]}
+          effect='cards'
+          modules={[Navigation, Pagination, A11y, Mousewheel]}
           loop={true}
           navigation={{
             navigation: true,
           }}
           spaceBetween={40}
-          slidesPerView={4}
+          slidesPerView={5}
+          mousewheel={{
+              mousewheel: true
+          }}
+          breakpoints={{
+            2452:{
+              slidesPerView: 5
+            }
+            ,
+            1972:{
+              slidesPerView: 4
+            },
+            1448:{
+              slidesPerView: 3
+            },
+            1024:{
+              slidesPerView: 2
+            },
+          }}
         >
-          <SwiperSlide className="project">Slide 1</SwiperSlide>
-          <SwiperSlide className="project">Slide 2</SwiperSlide>
-          <SwiperSlide className="project">Slide 3</SwiperSlide>
-          <SwiperSlide className="project">Slide 4</SwiperSlide>
-          <SwiperSlide className="project">Slide 5</SwiperSlide>
-          <SwiperSlide className="project">Slide 6</SwiperSlide>
-          <SwiperSlide className="project">Slide 7</SwiperSlide>
-          <SwiperSlide className="project">Slide 8</SwiperSlide>
-          ...
+          <SwiperSlide>
+            <SliderCard cardImage={fedEx}/>
+          </SwiperSlide>
+          <SwiperSlide >
+          <SliderCard />
+          </SwiperSlide>
+          <SwiperSlide > 
+          <SliderCard />
+          </SwiperSlide>
+          <SwiperSlide >
+          <SliderCard />
+          </SwiperSlide>
         </Swiper>
+        
       </section>
+
+      
       );
 }
 
