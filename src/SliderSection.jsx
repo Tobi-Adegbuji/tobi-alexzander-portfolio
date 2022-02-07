@@ -20,6 +20,7 @@ import "swiper/css/mousewheel"
 function SliderSection() {
   return (
       <section className='slider-section'>
+      <h4>PROJECTS</h4>
       <Swiper
           className="swiper"
           effect='cards'
@@ -29,7 +30,7 @@ function SliderSection() {
             navigation: true,
           }}
           spaceBetween={40}
-          slidesPerView={5}
+          slidesPerView={1}
           mousewheel={{
               mousewheel: true
           }}
@@ -41,7 +42,7 @@ function SliderSection() {
             1972:{
               slidesPerView: 4
             },
-            1448:{
+            1501:{
               slidesPerView: 3
             },
             1024:{
@@ -65,6 +66,7 @@ function SliderSection() {
           <SliderCard cardImage={sportology}/>
           </SwiperSlide>
         </Swiper>
+        <h4>EXPERIENCE</h4>
         <Swiper
           className="swiper"
           effect='cards'
