@@ -1,0 +1,14 @@
+.slider-card{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.slider-card-image{
+    max-height:100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
