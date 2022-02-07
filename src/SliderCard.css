@@ -13,5 +13,40 @@
     max-width: 100%;
     object-fit: cover;
     border-radius: 10px;
-
 }
+
+@media (max-width: 2452px) {
+    .slider-card{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 1972px) {
+    .slider-card{
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media (max-width: 1645px) {
+    .slider-card{
+        width: 260px;
+        height: 260px;
+    }
+}
+
+@media (max-width: 1334px) {
+    .slider-card{
+        width: 220px;
+        height: 220px;
+    }
+}
+
+
+/* @media (min-width: 1972px) {
+    .slider-card{
+        width: 350px;
+        height: 500px;
+    }
+} */

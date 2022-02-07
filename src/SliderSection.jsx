@@ -30,7 +30,7 @@ function SliderSection() {
             navigation: true,
           }}
           spaceBetween={40}
-          slidesPerView={1}
+          slidesPerView={4}
           mousewheel={{
               mousewheel: true
           }}
@@ -42,11 +42,11 @@ function SliderSection() {
             1972:{
               slidesPerView: 4
             },
-            1501:{
-              slidesPerView: 3
+            1440:{
+              slidesPerView: 4
             },
-            1024:{
-              slidesPerView: 2
+            1324:{
+              slidesPerView: 4
             },
           }}
         >
