@@ -5,6 +5,7 @@
     padding-top: 5px;
     padding-left: 70px; 
     padding-right: 20px;
+    margin-bottom: 20px;
     height: min-content;
     box-sizing: border-box;
     border-radius: 14px;
@@ -24,8 +25,10 @@
 
 .swiper{
     max-width: 100%;
+    z-index: -5; 
     /* height: 400px; */
   }
+
   
   /* .project {
     background-color: whitesmoke;
@@ -34,3 +37,59 @@
     border-radius: 3px;
     padding: 60px;
   } */
+
+
+
+/* MODAL-------------------- */
+.project-modal{
+    min-width: 500PX;
+    width: 25%;
+    height: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: #12171E;
+    color: black;
+    transform: translate(-50%, -50%);
+    border: black solid;
+    border-radius: 20px 20px 20px 20px;
+    /* box-shadow: 0px 2px 0px 0px rgb(41, 230, 255); */
+    overflow-y: scroll;
+    overflow: hidden;
+    z-index: 2;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 45px;
+    font-family: "Quicksand", sans-serif;
+    color:#ABABAB;
+
+}
+
+.project-modal > img{
+    object-fit: cover;
+    height: 40%; 
+    width: 100%;
+    border-radius: 14px;
+}
+
+.project-modal > h1 {
+    color: #E3B100;
+}
+
+.technology{
+    width: min-content;
+    height: 2px;
+    background-color: #17202E;
+    padding:25px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+
+.technolgy-container{
+    display: flex;
+    justify-content: space-between;
+}
+
