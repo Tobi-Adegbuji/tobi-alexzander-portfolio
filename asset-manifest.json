@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.25e9aeaf.css",
-    "main.js": "/react-gh-pages/static/js/main.1847209c.js",
-    "static/js/787.a599f853.chunk.js": "/react-gh-pages/static/js/787.a599f853.chunk.js",
-    "static/media/banner-image.png": "/react-gh-pages/static/media/banner-image.6cafd297041a4bc14e83.png",
-    "static/media/sportology.png": "/react-gh-pages/static/media/sportology.612d7ef3a86d6206e945.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.25e9aeaf.css.map": "/react-gh-pages/static/css/main.25e9aeaf.css.map",
-    "main.1847209c.js.map": "/react-gh-pages/static/js/main.1847209c.js.map",
-    "787.a599f853.chunk.js.map": "/react-gh-pages/static/js/787.a599f853.chunk.js.map"
+    "main.css": "/Tobi-Alexzander-portfolio/static/css/main.25e9aeaf.css",
+    "main.js": "/Tobi-Alexzander-portfolio/static/js/main.ec36fc69.js",
+    "static/js/787.a599f853.chunk.js": "/Tobi-Alexzander-portfolio/static/js/787.a599f853.chunk.js",
+    "static/media/banner-image.png": "/Tobi-Alexzander-portfolio/static/media/banner-image.6cafd297041a4bc14e83.png",
+    "static/media/sportology.png": "/Tobi-Alexzander-portfolio/static/media/sportology.612d7ef3a86d6206e945.png",
+    "index.html": "/Tobi-Alexzander-portfolio/index.html",
+    "main.25e9aeaf.css.map": "/Tobi-Alexzander-portfolio/static/css/main.25e9aeaf.css.map",
+    "main.ec36fc69.js.map": "/Tobi-Alexzander-portfolio/static/js/main.ec36fc69.js.map",
+    "787.a599f853.chunk.js.map": "/Tobi-Alexzander-portfolio/static/js/787.a599f853.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25e9aeaf.css",
-    "static/js/main.1847209c.js"
+    "static/js/main.ec36fc69.js"
   ]
 }
