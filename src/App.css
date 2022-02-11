@@ -1,6 +1,7 @@
 .App {
   display: flex;
   width: 85%;
+  /* overflow: scroll; */
 }
 
 .main-content {
@@ -17,3 +18,17 @@
   }
 } */
 
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+Track
+::-webkit-scrollbar-track {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c24d2c;
+  border-radius: 10px;
+}

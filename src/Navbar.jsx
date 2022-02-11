@@ -18,7 +18,7 @@ function Navbar() {
   return (
   <nav className='navbar'>
       <div className="navbutton-container">
-      <NavButton icon={homeIcon}/>
+      
       <NavButton icon={projectsIcon}/>
       <NavButton icon={workIcon}/>
       <NavButton icon={resumeIcon}/>
