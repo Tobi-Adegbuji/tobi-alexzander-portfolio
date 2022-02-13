@@ -43,7 +43,7 @@ function SliderSection() {
           navigation: true,
         }}
         spaceBetween={40}
-        slidesPerView={4}
+        slidesPerView={3}
         mousewheel={{
           mousewheel: true,
         }}
@@ -54,12 +54,12 @@ function SliderSection() {
           1972: {
             slidesPerView: 4,
           },
-          1440: {
+          1044: {
             slidesPerView: 4,
           },
-          1324: {
-            slidesPerView: 4,
-          },
+          952: {
+            slidesPerView: 3
+          }
         }}
       >
         {projects.map((project, index) => {
@@ -96,12 +96,12 @@ function SliderSection() {
           1972: {
             slidesPerView: 4,
           },
-          1440: {
+          1044: {
             slidesPerView: 4,
           },
-          1324: {
-            slidesPerView: 4,
-          },
+          952: {
+            slidesPerView: 3
+          }
         }}
       >
         {projects.map((project, index) => {

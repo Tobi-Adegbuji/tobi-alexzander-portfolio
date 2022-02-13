@@ -1,6 +1,7 @@
 import React from "react";
 import "./Banner.css";
 import bannerImage from "./img/banner-image.png";
+import bannerMobileImage from "./img/banner-image-mobile.png"
 
 function Banner() {
   return (
@@ -20,18 +21,24 @@ function Banner() {
         <div className="banner-info-about">
           <h2>How Can I Help You</h2>
           <h1>GROW?</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni soluta corrupti saepe cum illum qui temporibus, maiores incidunt, impedit in, quos at ex inventore! Incidunt nesciunt unde quis? Voluptatem doloribus modi dolor debitis amet fugiat animi quos explicabo perferendis! Officia maiores fugiat voluptatum sequi, animi quia deleniti mollitia maxime quos cumque, voluptates repudiandae. Perferendis magni inventore, commodi deserunt natus recusandae.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            soluta corrupti saepe cum illum qui temporibus, maiores incidunt,
+            impedit in, quos at ex inventore! Incidunt nesciunt unde quis?
+            Voluptatem doloribus modi dolor debitis amet fugiat animi quos
+            explicabo perferendis! Officia maiores fugiat voluptatum sequi,
+            animi quia deleniti mollitia maxime quos cumque, voluptates
+            repudiandae. Perferendis magni inventore, commodi deserunt natus
+            recusandae.
+          </p>
         </div>
       </div>
       <div className="banner-infographic">
-        <img src={bannerImage} alt="" />
-        {/* <div className="banner-stats">
-          <h3 className='banner-stats-name'>TOBI ALEXANDR</h3>
-          <h4>YEARS OF EXPERIENCE</h4>
-          <h4>3+</h4>
-          <h4>CLIENT SATISFACTION</h4>
-          <h4 className=''>99%</h4>
-      </div> */}
+        {/* <h5>TOBI ALEXZANDR</h5> */}
+        <picture>
+        <source media="(max-width: 1394px)" srcSet={bannerMobileImage}/>
+        <img src={bannerImage} alt="" className="banner-img"/>        
+        </picture>
       </div>
     </section>
   );

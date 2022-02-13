@@ -43,6 +43,27 @@
     }
 }
 
+    @media (max-width: 1142px) {
+        .slider-card{
+            width: 200px;
+            height: 200px;
+        }
+}
+
+@media (max-width: 1044px) {
+    .slider-card{
+        width: 180px;
+        height: 180px;
+    }
+}
+
+
+@media (max-width: 737px) {
+    .slider-card{
+        width: 150px;
+        height: 150px;
+    }
+}
 
 /* @media (min-width: 1972px) {
     .slider-card{
