@@ -185,6 +185,7 @@ Track
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 20px;
   }
 
 }
