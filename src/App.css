@@ -2,12 +2,13 @@
   display: flex;
   width: 85%;
   /* overflow: scroll; */
+  align-items: center;
+  margin: auto;
 }
 
 .main-content {
   padding: 0;
   flex-grow: 1;
-  margin-left: 4%;
   width: 100%;
 }
 

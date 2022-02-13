@@ -8,7 +8,6 @@ import SliderSection from "./SliderSection";
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <div className="main-content">
         <Banner />
         <SliderSection/>

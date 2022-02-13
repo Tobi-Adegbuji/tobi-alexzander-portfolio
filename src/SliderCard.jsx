@@ -1,10 +1,25 @@
 import React from "react";
 import './SliderCard.css'; 
 
-function SliderCard({ cardImage }) {
+function SliderCard({ projectImage, experienceImage }) {
   return (
     <div className="slider-card">
-      <img className="slider-card-image" src={cardImage} alt="card" />
+    {
+      projectImage 
+      ? 
+      <img 
+      className="slider-card-project-image" 
+      src={require(`./img/${projectImage}`)} 
+      alt="card" 
+      />
+      :
+      <img 
+      className="slider-card-experience-image" 
+      src={require(`./img/${experienceImage}`)} 
+      alt="card" 
+      />
+
+    }
     </div>
   );
 }
