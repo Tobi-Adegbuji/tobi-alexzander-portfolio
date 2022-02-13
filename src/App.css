@@ -33,3 +33,11 @@ Track
   background: #c24d2c;
   border-radius: 10px;
 }
+
+
+@media (max-width: 611px) {
+  .App {
+    display: flex;
+    width: 100%;
+  }
+}

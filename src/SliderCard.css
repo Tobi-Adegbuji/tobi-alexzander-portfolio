@@ -73,6 +73,13 @@ height: 100%;
     }
 }
 
+@media (max-width: 611px) {
+    .slider-card{
+        width: 100%;
+        height: 300px;
+    }
+}
+
 /* @media (min-width: 1972px) {
     .slider-card{
         width: 350px;
