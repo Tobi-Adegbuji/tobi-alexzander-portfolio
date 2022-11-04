@@ -1,11 +1,13 @@
 .banner {
-  background-color: #1f2732;
+  background-color: #0C0F14;
   flex-grow: 1;
   height: fit-content;
-  border-bottom-left-radius: 14px;
-  border-bottom-right-radius: 14px;
+  /* border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px; */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   padding-top: 20px;
   display: flex;
+
 }
 
 .banner-info {
@@ -68,6 +70,7 @@
   align-items: center;
   cursor: pointer;
   transition: ease-in 0.1s;
+  margin-top: 30px;
 }
 
 .banner-info-btn:hover {
@@ -84,7 +87,7 @@
 }
 
 .banner-info-about {
-  margin-top: 30px;
+  margin-top: 50px;
   font-family: "Quicksand", sans-serif;
 }
 
@@ -150,7 +153,7 @@
   }
 
   .banner-info-btn {
-    width: 240px;
+    width: 150px;
     height: 30px;
   }
 
