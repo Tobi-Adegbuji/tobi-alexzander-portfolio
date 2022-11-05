@@ -78,8 +78,8 @@
 
 .project-modal {
   min-width: 200px;
-  width: 50%;
-  height: 70%;
+  width: 80%;
+  height: 90%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -108,7 +108,7 @@
 .project-modal > img {
   object-fit: cover;
   height: 40%;
-  width: 100%;
+  width: 40%;
   border-radius: 14px;
 }
 

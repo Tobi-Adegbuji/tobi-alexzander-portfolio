@@ -62,7 +62,7 @@ function SliderSection() {
             slidesPerView: 4,
           },
           1044: {
-            slidesPerView: 4,
+            slidesPerView: 2,
           },
           612: {
             slidesPerView: 3
@@ -104,7 +104,7 @@ function SliderSection() {
             slidesPerView: 4,
           },
           1044: {
-            slidesPerView: 4,
+            slidesPerView: 2,
           },
           612: {
             slidesPerView: 3
