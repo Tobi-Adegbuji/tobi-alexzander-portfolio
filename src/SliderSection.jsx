@@ -56,10 +56,10 @@ function SliderSection() {
         }}
         breakpoints={{
           2452: {
-            slidesPerView: 5,
+            slidesPerView: 3,
           },
           1972: {
-            slidesPerView: 4,
+            slidesPerView: 3,
           },
           1044: {
             slidesPerView: 2,
@@ -76,9 +76,9 @@ function SliderSection() {
             </SwiperSlide>
           );
         })}
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <SliderCard projectImage={'sportology.png'} />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
 
 
@@ -98,10 +98,10 @@ function SliderSection() {
         }}
         breakpoints={{
           2452: {
-            slidesPerView: 5,
+            slidesPerView: 3,
           },
           1972: {
-            slidesPerView: 4,
+            slidesPerView: 3,
           },
           1044: {
             slidesPerView: 2,

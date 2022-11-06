@@ -2,6 +2,7 @@ import React from "react";
 import "./Banner.css";
 import bannerImage from "./img/banner-image.png";
 import bannerMobileImage from "./img/banner-image-mobile.png"
+import song_1 from "./img/the-tourist.mp3"
 
 function Banner() {
   return (
@@ -34,6 +35,9 @@ function Banner() {
         <img src={bannerImage} alt="" className="banner-img"/>        
         </picture>
       </div>
+      {/* <audio autoPlay="autoplay" controls>
+        <source src={require("./img/the-tourist.mp3")}/>
+      </audio> */}
     </section>
   );
 }

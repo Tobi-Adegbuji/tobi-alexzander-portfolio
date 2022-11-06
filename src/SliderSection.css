@@ -14,10 +14,11 @@
 
 .slider-section > h4 {
   margin-top: 46px;
-  margin-bottom: 14px;
+  /* margin-left: 75px; */
+  margin-bottom: 30px;
   font-family: "Quicksand", sans-serif;
   color: #ababab;
-  font-weight: bold;
+  font-weight: 400;
   font-size: large;
   letter-spacing: 5px;
   visibility: hidden;

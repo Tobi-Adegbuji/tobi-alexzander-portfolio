@@ -1,5 +1,5 @@
 .slider-card{
-    width: 400px;
+    width: 600px;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -25,15 +25,15 @@ height: 100%;
 
 @media (max-width: 2452px) {
     .slider-card{
-        width: 350px;
-        height: 350px;
+        width: 600px;
+        height: 400px;
     }
 }
 
 @media (max-width: 1972px) {
     .slider-card{
-        width: 320px;
-        height: 320px;
+        width: 600px;
+        height: 400px;
     }
 }
 
